@@ -1,0 +1,53 @@
+#navbar {
+    width: 100%;
+    height: 55px;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-title {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    color: white;
+    font-family: cursive;
+
+    overflow: hidden;
+	margin: 0px;
+}
+#navbar-gift-right {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#Snoopy img{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+p {
+    line-height: 2em;
+    text-align: center;
+    color: darksalmon;
+    
+    
+}
+
+/* examples from class
+p {
+    line-height: 2em;
+    text-shadow: 3px 3px orange;
+}
+h2 {
+    text-align: right;
+}
+a {
+    text-decoration: line-through;
+}
+#title {
+    background-color: yellow;
+}
+*/
