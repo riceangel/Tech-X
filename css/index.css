@@ -4,6 +4,7 @@
     background-color: darksalmon;
     display: flex;
     justify-content: space-between;
+    
 }
 #nav-title {
     display: flex;
@@ -17,6 +18,8 @@
 }
 #navbar-gift-right {
     display: flex;
+    max-width: 100%;
+    max-height: 100%;    
     justify-content: flex-end;
     
 }
@@ -33,8 +36,53 @@ p {
     text-align: center;
     color: darksalmon;
     
-    
 }
+
+.months {
+    display: flex;
+    background: darksalmon;
+  
+    justify-content: space-between;
+    padding: 0px 100px;
+    margin: 15px 15px;
+    align-items: center;
+}
+.monthdisplay{
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+    color: black;
+    border: 2px solid salmon; 
+    
+
+}
+
+.calendar {
+    
+
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.calendar > div {
+    flex: 1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5%;
+
+    
+    background: antiquewhite;
+    padding: 20px;
+}
+.calendar > div::before {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+  }
+
 
 /* examples from class
 p {
