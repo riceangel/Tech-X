@@ -34,42 +34,41 @@
     </div>
     <div class="months" id="monthbar">
         <!-- clicking on a month's name will refresh the page to show the corresponding birthdays for that month -->
-        <div class="monthdisplay" id="Jan">
-            <button>January</button>
+        <div class="monthdisplay" >
+            <button id="Jan" onclick="updateJan()">January</button>
         </div>
-        <div class="monthdisplay"id="Feb">
-            <button>February</button>
+        <div class="monthdisplay">
+            <button id="Feb" onclick="updateFeb()">February</button>
         </div>
-        <div class="monthdisplay"id="Mar">
-            <button>March</button>
+        <div class="monthdisplay">
+            <button id="Mar" onclick="updateMar()">March</button>
         </div>
-        <div class="monthdisplay"id="Apr">
-            <button>April</button>
+        <div class="monthdisplay" >
+            <button id="Apr" onclick="updateApr()">April</button>
         </div>
-        <div class="monthdisplay"id="May">
-            <button>May</button>
+        <div class="monthdisplay">
+            <button id="May" onclick="updateMay()">May</button>
         </div>
-        <div class="monthdisplay"id="Jun">
-            <button>June</button>
+        <div class="monthdisplay">
+            <button id="Jun" onclick="updateJun()">June</button>
         </div>
-        <div class="monthdisplay"id="Jul">
-            <button>July</button>
-
+        <div class="monthdisplay">
+            <button id="Jul" onclick="updateJul()">July</button>
         </div>
-        <div class="monthdisplay"id="Aug">
-            <button>August</button>
+        <div class="monthdisplay">
+            <button id="Aug" onclick="updateAug()">August</button>
         </div>
-        <div class="monthdisplay"id="Sept">
-            <button>September</button>
+        <div class="monthdisplay">
+            <button id="Sept" onclick="updateSep()">September</button>
         </div>
-        <div class="monthdisplay"id="Oct">
-            <button>October</button>
+        <div class="monthdisplay">
+            <button id="Oct" onclick="updateOct()">October</button>
         </div>
-        <div class="monthdisplay"id="Nov">
-            <button>November</button>
+        <div class="monthdisplay">
+            <button id="Nov" onclick="updateNov()">November</button>
         </div>
-        <div class="monthdisplay"id="Dec">
-            <button>December</button>
+        <div class="monthdisplay">
+            <button id="Dec" onclick="updateDec()">December</button>
         </div>
     </div>
 <p></p>
@@ -108,6 +107,111 @@
     </div>
    
     <!--references scripts.js file for javascript -->
-    <script srs="js/scripts.js"></script>>
+    <!--<script srs="js/scripts.js"></script>>-->
+    <script>
+    function updateJan() {
+        document.getElementById("col1").innerHTML = "1  Kat";
+        document.getElementById("col6").innerHTML = "6  Sam T.";
+        document.getElementById("col16").innerHTML = "16  Eva";
+        document.getElementById("col24").innerHTML = "24  Mr. Cyhan";
+    }
+    function updateFeb() {
+        document.getElementById("col3").innerHTML = "3  Anastasia";
+        document.getElementById("col6").innerHTML = "6  Charlotte M., Donovan";
+        document.getElementById("col9").innerHTML = "9  Shaina";
+        document.getElementById("col10").innerHTML = "10  Caroline G.";
+        document.getElementById("col11").innerHTML = "11  Clark";
+        document.getElementById("col12").innerHTML = "12  Monica";
+        document.getElementById("col13").innerHTML = "13  Amy C.";
+        document.getElementById("col14").innerHTML = "14  Mrs. Volkman";
+        document.getElementById("col23").innerHTML = "23  Ayden";
+        document.getElementById("col24").innerHTML = "24  Zach P.";
+        document.getElementById("col26").innerHTML = "26  Nanay";
+        document.getElementById("col27").innerHTML = "27  Dad, Sammy, Melumo";
+
+    }
+    function updateMar() {
+        document.getElementById("col1").innerHTML = "1  Justine, Ava S.";
+        document.getElementById("col7").innerHTML = "7  Aly, Erick";
+        document.getElementById("col13").innerHTML = "13  Ms. Bates";
+        document.getElementById("col29").innerHTML = "29  Mr. Todd";
+        document.getElementById("col30").innerHTML = "30  Tyla";
+        document.getElementById("col31").innerHTML = "31  Michael R.";
+
+    }
+    function updateApr() {
+        document.getElementById("col6").innerHTML = "6  Mrs. Wakeman";
+        document.getElementById("col9").innerHTML = "9  Charles";
+        document.getElementById("col13").innerHTML = "13  Isaiah";
+        document.getElementById("col21").innerHTML = "21  Ty";
+        document.getElementById("col24").innerHTML = "24  Emma G., Lauren Pa., Ryan H.";
+        document.getElementById("col29").innerHTML = "29  Ama";
+        document.getElementById("col30").innerHTML = "Alex 'Moss''";
+    }
+    function updateMay() {
+        document.getElementById("col4").innerHTML = "4  Krish";
+        document.getElementById("col7").innerHTML = "7  Mya, Sierra";
+        document.getElementById("col9").innerHTML = "9  Cassie, Jaylin";
+    }
+    function updateJun() {
+        document.getElementById("col2").innerHTML = "2  Andrea";
+        document.getElementById("col23").innerHTML = "23  Austin";
+        document.getElementById("col24").innerHTML = "24  Dani";
+        document.getElementById("col25").innerHTML = "25  Jason";
+    }
+    function updateJul() {
+        document.getElementById("col2").innerHTML = "2  Bella A.";
+        document.getElementById("col21").innerHTML = "21  Antonio L.";
+        document.getElementById("col24").innerHTML = "24  Abdi";
+        document.getElementById("col25").innerHTML = "25  Jason";
+    }
+    function updateAug() {
+        document.getElementById("col2").innerHTML = "2  Jet";
+        document.getElementById("col3").innerHTML = "3  Samantha V.";
+        document.getElementById("col6").innerHTML = "6  Dylan";
+        document.getElementById("col17").innerHTML = "17  Israel";
+        document.getElementById("col22").innerHTML = "22 Jazmyn";
+        document.getElementById("col28").innerHTML = "28  Ethan N.";
+        document.getElementById("col29").innerHTML = "29  Sydney M.";
+        document.getElementById("col30").innerHTML = "30  Kaylia";
+    }
+    function updateSep() {
+        document.getElementById("col1").innerHTML = "1  Sophie";
+        document.getElementById("col2").innerHTML = "2  Jacob C.";
+        document.getElementById("col3").innerHTML = "3  Ashlee";
+        document.getElementById("col12").innerHTML = "12  Mr. Ellertson";
+        document.getElementById("col15").innerHTML = "15  Aila, Vikram";
+        document.getElementById("col18").innerHTML = "18  Madison H.";
+        document.getElementById("col19").innerHTML = "19  Mei, Taylor R.";
+        document.getElementById("col24").innerHTML = "24  Bri Bri";
+        document.getElementById("col27").innerHTML = "27  Carson";
+    }
+    function updateOct() {
+        document.getElementById("col4").innerHTML = "4  Rubean";
+        document.getElementById("col6").innerHTML = "6  Maddie M., Lauren W.";
+        document.getElementById("col9").innerHTML = "9  Jeannie Panini";
+        document.getElementById("col11").innerHTML = "11 Loegan";
+        document.getElementById("col12").innerHTML = "12  Samantha B.";
+        document.getElementById("col23").innerHTML = "23  Mr. Chavez, Mrs. Eakle";
+        document.getElementById("col31").innerHTML = "31  Hanna Banana";
+        document.getElementById("col1").innerHTML = "potato";
+    }
+    function updateNov() {
+        document.getElementById("col1").innerHTML = "1  Alaura?";
+        document.getElementById("col3").innerHTML = "3  Christy-chan";
+        document.getElementById("col4").innerHTML = "4  Yolanda, PJ, Mahek";
+        document.getElementById("col13").innerHTML = "13  Alan";
+        document.getElementById("col15").innerHTML = "15  Kuya";
+        document.getElementById("col16").innerHTML = "16  Kuya Andre";
+        document.getElementById("col18").innerHTML = "18  Andrew H.";
+        document.getElementById("col20").innerHTML = "20i   Grandpa Danny";
+        document.getElementById("col30").innerHTML = "30  Mom";
+    }
+    function updateDec() {
+        document.getElementById("col3").innerHTML = "3  Cacai, Jacob Marinara";
+        document.getElementById("col4").innerHTML = "4  Frances";
+        document.getElementById("col5").innerHTML = "5  Mr. Katt";
+    }
+    </script>
 </body>
 </html>
